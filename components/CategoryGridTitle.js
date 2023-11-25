@@ -9,6 +9,7 @@ function CategoryGridTitle(props) {
           styles.button,
           pressed ? styles.buttonPressed : null,
         ]}
+        onPress={props.onPress}
       >
         <View style={styles.innerContainer}>
           <Text style={styles.title}>{props.title}</Text>
