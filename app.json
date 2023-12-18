@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "meals-app",
+    "name": "My Recipes Book",
     "slug": "meals-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,16 +16,25 @@
       "**/*"
     ],
     "ios": {
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "VersionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.fedronicfelix.mealsapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f154a02d-ccb8-4580-8bc2-bb6bf3f73bde"
+      }
+    },
+    "owner": "fedronicfelix"
   }
 }
